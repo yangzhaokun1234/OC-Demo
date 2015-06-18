@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2F78C7F21B32ACD5001E4EEB /* ThemeManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F78C7F11B32ACD5001E4EEB /* ThemeManage.m */; };
+		2F78C7F71B32ADBA001E4EEB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F78C7F51B32ADBA001E4EEB /* LoginViewController.m */; };
+		2F78C7F81B32ADBA001E4EEB /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F78C7F61B32ADBA001E4EEB /* LoginViewController.xib */; };
+		2F78C7FC1B32AE8D001E4EEB /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F78C7FA1B32AE8D001E4EEB /* RegisterViewController.m */; };
+		2F78C7FD1B32AE8D001E4EEB /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F78C7FB1B32AE8D001E4EEB /* RegisterViewController.xib */; };
 		FD13E8CB1B31263A0032DD0B /* TestSo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD13E8CA1B31263A0032DD0B /* TestSo.a */; };
 		FD13E8CD1B3137620032DD0B /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FD13E8CC1B3137620032DD0B /* libstdc++.dylib */; };
 		FDAC7A4C1B3109BF00253CC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAC7A4B1B3109BF00253CC2 /* main.m */; };
@@ -34,6 +38,12 @@
 /* Begin PBXFileReference section */
 		2F78C7F01B32ACD5001E4EEB /* ThemeManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeManage.h; sourceTree = "<group>"; };
 		2F78C7F11B32ACD5001E4EEB /* ThemeManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeManage.m; sourceTree = "<group>"; };
+		2F78C7F41B32ADBA001E4EEB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		2F78C7F51B32ADBA001E4EEB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		2F78C7F61B32ADBA001E4EEB /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		2F78C7F91B32AE8D001E4EEB /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		2F78C7FA1B32AE8D001E4EEB /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		2F78C7FB1B32AE8D001E4EEB /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		FD13E8C41B311FE50032DD0B /* TestSo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSo.h; sourceTree = "<group>"; };
 		FD13E8CA1B31263A0032DD0B /* TestSo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = TestSo.a; sourceTree = "<group>"; };
 		FD13E8CC1B3137620032DD0B /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
@@ -76,6 +86,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F78C7F31B32ADA6001E4EEB /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				2F78C7F41B32ADBA001E4EEB /* LoginViewController.h */,
+				2F78C7F51B32ADBA001E4EEB /* LoginViewController.m */,
+				2F78C7F61B32ADBA001E4EEB /* LoginViewController.xib */,
+				2F78C7F91B32AE8D001E4EEB /* RegisterViewController.h */,
+				2F78C7FA1B32AE8D001E4EEB /* RegisterViewController.m */,
+				2F78C7FB1B32AE8D001E4EEB /* RegisterViewController.xib */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
 		FDAC7A3D1B3109BF00253CC2 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +121,7 @@
 		FDAC7A481B3109BF00253CC2 /* OC++Demo */ = {
 			isa = PBXGroup;
 			children = (
+				2F78C7F31B32ADA6001E4EEB /* lib */,
 				2F78C7F01B32ACD5001E4EEB /* ThemeManage.h */,
 				2F78C7F11B32ACD5001E4EEB /* ThemeManage.m */,
 				FD13E8CA1B31263A0032DD0B /* TestSo.a */,
@@ -224,6 +248,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F78C7F81B32ADBA001E4EEB /* LoginViewController.xib in Resources */,
+				2F78C7FD1B32AE8D001E4EEB /* RegisterViewController.xib in Resources */,
 				FDAC7A551B3109BF00253CC2 /* Main.storyboard in Resources */,
 				FDAC7A5A1B3109BF00253CC2 /* LaunchScreen.xib in Resources */,
 				FDAC7A571B3109BF00253CC2 /* Images.xcassets in Resources */,
@@ -248,8 +274,10 @@
 				FDAC7A741B310EEC00253CC2 /* TestOC.mm in Sources */,
 				2F78C7F21B32ACD5001E4EEB /* ThemeManage.m in Sources */,
 				FDAC7A711B3109D600253CC2 /* Test.cpp in Sources */,
+				2F78C7F71B32ADBA001E4EEB /* LoginViewController.m in Sources */,
 				FDAC7A4F1B3109BF00253CC2 /* AppDelegate.m in Sources */,
 				FDAC7A4C1B3109BF00253CC2 /* main.m in Sources */,
+				2F78C7FC1B32AE8D001E4EEB /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
