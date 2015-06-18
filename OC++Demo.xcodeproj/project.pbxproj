@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F78C7F21B32ACD5001E4EEB /* ThemeManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F78C7F11B32ACD5001E4EEB /* ThemeManage.m */; };
 		FD13E8CB1B31263A0032DD0B /* TestSo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD13E8CA1B31263A0032DD0B /* TestSo.a */; };
 		FD13E8CD1B3137620032DD0B /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FD13E8CC1B3137620032DD0B /* libstdc++.dylib */; };
 		FDAC7A4C1B3109BF00253CC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAC7A4B1B3109BF00253CC2 /* main.m */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F78C7F01B32ACD5001E4EEB /* ThemeManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeManage.h; sourceTree = "<group>"; };
+		2F78C7F11B32ACD5001E4EEB /* ThemeManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeManage.m; sourceTree = "<group>"; };
 		FD13E8C41B311FE50032DD0B /* TestSo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSo.h; sourceTree = "<group>"; };
 		FD13E8CA1B31263A0032DD0B /* TestSo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = TestSo.a; sourceTree = "<group>"; };
 		FD13E8CC1B3137620032DD0B /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
@@ -95,6 +98,8 @@
 		FDAC7A481B3109BF00253CC2 /* OC++Demo */ = {
 			isa = PBXGroup;
 			children = (
+				2F78C7F01B32ACD5001E4EEB /* ThemeManage.h */,
+				2F78C7F11B32ACD5001E4EEB /* ThemeManage.m */,
 				FD13E8CA1B31263A0032DD0B /* TestSo.a */,
 				FD13E8C41B311FE50032DD0B /* TestSo.h */,
 				FDAC7A4D1B3109BF00253CC2 /* AppDelegate.h */,
@@ -241,6 +246,7 @@
 			files = (
 				FDAC7A521B3109BF00253CC2 /* ViewController.mm in Sources */,
 				FDAC7A741B310EEC00253CC2 /* TestOC.mm in Sources */,
+				2F78C7F21B32ACD5001E4EEB /* ThemeManage.m in Sources */,
 				FDAC7A711B3109D600253CC2 /* Test.cpp in Sources */,
 				FDAC7A4F1B3109BF00253CC2 /* AppDelegate.m in Sources */,
 				FDAC7A4C1B3109BF00253CC2 /* main.m in Sources */,

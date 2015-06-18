@@ -1,5 +1,5 @@
 //
-//  Manage.h
+//  ThemeManage.h
 //  OC++Demo
 //
 //  Created by yang on 15/6/18.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Manage : NSObject
+@interface ThemeManage : NSObject
 
 @end
